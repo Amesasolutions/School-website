@@ -6,9 +6,11 @@ export default {
   ],
   theme: {
     extend: {
-      primaryColor: "#005EFF",
-      secondaryColor: "#FFC300",
-      textColor: "",
+      colors: {
+        primaryColor: "#005EFF",
+        secondaryColor: "#FFC300",
+        textColor: "",
+      }
     },
   },
   plugins: [],

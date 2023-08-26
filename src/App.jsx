@@ -13,11 +13,7 @@ function App() {
   
   return (
     <>
-      <main>
-        <Home/>
-        <About/>
-        <OurSchools/>
-      </main>
+      <Home/>
     </>
   )
 }
