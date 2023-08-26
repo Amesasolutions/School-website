@@ -12,6 +12,7 @@ function App() {
   }, []);
   
   return (
+
     <Router>
       <main>
         <Routes>
@@ -22,6 +23,7 @@ function App() {
       </main>
     </Router>
   );
+
 }
 
 export default App;
