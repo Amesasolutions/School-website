@@ -2,7 +2,7 @@ import React, {useEffect} from "react";
 import Header from "../components/header/Header";
 import Footer from "../components/Footer/Footer";
 import Cover from "../components/AboutContent/Cover";
-import Content from "../components/AboutContent/content";
+import Content from "../components/AboutContent/Content";
 
 
 function About() {
