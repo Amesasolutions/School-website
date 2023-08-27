@@ -15,7 +15,7 @@ function Footer() {
         <div className='flex flex-wrap  justify-start  md:justify-center gap-6  md:gap-[15%] items-center w-full '>
           {/* first container */}
           <div>
-            <h1 className='text-white text-2xl'>Somali School</h1>
+            <h1 className='text-white text-2xl font-semibold'>Somali School</h1>
             <p className='py-2 text-gray-300'>Our team of experienced
               professionals, <br className=" hidden md:block" /> educators, and
               industry experts collaborate <br className=" hidden md:block" /> to
@@ -31,7 +31,7 @@ function Footer() {
 
           {/* second container */}
           <div className='flex flex-col gap-1'>
-            <h1 className='text-white text-[1.5rem]'>Quick links</h1>
+            <h1 className='text-white text-[1.5rem] font-medium'>Quick links</h1>
             <div className='flex flex-col'>
               <Link to='/'><p className='text-secondaryColor '><i class="ri-arrow-right-s-line"> <span className='text-gray-300 hover:text-secondaryColor'>Home</span> </i></p> </Link>
               <Link to='/About-us'><p className='text-secondaryColor '><i class="ri-arrow-right-s-line"> <span className='text-gray-300 hover:text-secondaryColor'>About us</span> </i></p> </Link>
@@ -42,7 +42,7 @@ function Footer() {
 
           {/* third container */}
           <div className='flex flex-col'>
-            <h1 className='text-white text-2xl mb-3'>Contact info</h1>
+            <h1 className='text-white text-2xl mb-3 font-medium'>Contact info</h1>
             <div className='flex flex-col gap-3 '>
               <p className='text-secondaryColor '><i class="ri-map-pin-line"><span className='text-gray-300 ml-2 '>44 daarta,  Br City, Somalia, 70-102</span> </i></p>
               <p className='text-secondaryColor '><i class="ri-mail-send-line"><span className='text-gray-300 ml-2 '>somalischool@somaali.so</span></i></p>
