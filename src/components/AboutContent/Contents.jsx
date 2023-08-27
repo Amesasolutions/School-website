@@ -1,7 +1,7 @@
 import React from "react";
 import img from "../../assets/images/Education-bro.png";
 
-function Content() {
+function Contents() {
   return (
     <section className="!pt-8">
       <div className="container overflow-y-hidden flex flex-col">
@@ -131,4 +131,4 @@ function Content() {
   );
 }
 
-export default Content;
+export default Contents;

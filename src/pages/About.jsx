@@ -2,7 +2,7 @@ import React, {useEffect} from "react";
 import Header from "../components/header/Header";
 import Footer from "../components/Footer/Footer";
 import Cover from "../components/AboutContent/Cover";
-import Content from "../components/AboutContent/content";
+import Contents from "../components/AboutContent/Contents";
 
 
 function About() {
@@ -14,7 +14,7 @@ function About() {
     <>
       <Header />
        <Cover/>
-       <Content/>
+       <Contents/>
       <Footer />
     </>
   );
