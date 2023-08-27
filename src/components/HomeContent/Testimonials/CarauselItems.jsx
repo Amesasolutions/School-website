@@ -10,8 +10,8 @@ function CarauselItems({ item }) {
       />
       <div className="carausel-item-text">
         <h2 className="text-[0.7rem] md:text-xl font-semibold text-txtColor">
-          {item.Name}
-          <span className="text-[#00befe] font-normal">
+          {item.Name} 
+          <span className="pl-1 text-[#00befe] font-normal">
             <i class="ri-verified-badge-fill"></i>
           </span>
         </h2>
