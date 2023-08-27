@@ -38,6 +38,61 @@ section {
     transition: 0.3s linear;
 }
 
+.carausel {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.inner {
+    white-space: nowrap;
+    transition: transform 0.3s;
+}
+
+.carausel-item {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    background: #fff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 4px rgba(0,0,0,0.1);
+}
+
+.carausel-img {
+    border-radius: 50%;
+    padding: 5px;
+    box-shadow: 0 0 4px rgba(0,0,0,0.1)
+}
+
+.carausel-item-text {
+    font-size: 0.80rem;
+    margin: 40px 0 40px 0;
+    padding: 10px;
+    white-space: normal;
+}
+
+.carausel-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px;
+    gap: 12px;
+}
+
+.arrows-btn {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    border-radius: 50%;
+}
+
+
 @media only screen and (max-width: 768px ) {
     .menu {
         width: 100%;
@@ -65,5 +120,11 @@ section {
 
     .show_menu {
         display: block;
+    }
+
+    .carausel-item {
+        padding: 16px;
+        margin: 4px;
+        height: 140px;
     }
 }
