@@ -115,7 +115,8 @@ function Header() {
               className="flex md:hidden items-center justify-center bg-primaryColor w-[40px] h-[40px] leading-[40px] text-center text-white 
             text-2xl rounded-[5px] cursor-pointer"
             >
-              <i class="ri-menu-4-fill"></i>
+              {/* <i class="ri-menu-4-fill"></i> */}
+              <i class="ri-menu-3-fill"></i>
             </span>
           </div>
           {/* ===== menu right end ====== */}
