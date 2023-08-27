@@ -54,7 +54,7 @@ function Carousel() {
     <section>
       <div className="container flex flex-col gap-8 items-center justify-center">
         <h1 className="text-center font-semibold text-xl text-primaryColor">
-          what our students parent say
+          what our students parent says
         </h1>
         <div className="carausel w-[100%] lg:w-1/2 md:w-2/3" >
           <div
