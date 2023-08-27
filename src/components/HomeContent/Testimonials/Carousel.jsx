@@ -16,7 +16,7 @@ function Carousel() {
       img: parent1,
     },
     {
-      Name: "Dr Saki",
+      Name: "Dr zakir",
       Description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim Lorem ipsum dolor sit amet, ",
       Date: "May 23, 2023",
