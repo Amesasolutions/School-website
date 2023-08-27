@@ -122,9 +122,10 @@ section {
         display: block;
     }
 
+
     .carausel-item {
         padding: 16px;
         margin: 4px;
         height: 140px;
     }
-}
+
