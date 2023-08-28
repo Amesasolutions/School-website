@@ -2,6 +2,7 @@ import React, {useEffect} from "react";
 import Header from "../components/header/Header";
 import Footer from "../components/Footer/Footer";
 import Cover from "../components/ContactContent/Cover";
+import ContactForms from "../components/ContactContent/ContactForms";
 
 function Contact() {
   useEffect(() => {
@@ -12,6 +13,7 @@ function Contact() {
     <>
       <Header />
       <Cover/>
+      <ContactForms/>
       <Footer />
     </>
   );
