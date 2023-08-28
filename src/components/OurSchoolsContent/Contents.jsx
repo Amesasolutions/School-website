@@ -17,7 +17,7 @@ function Contents() {
         </p>
         {/* ======== title end ======== */}
         {/* ======== boxs start ======== */}
-        <div className="flex flex-wrap items-center justify-center gap-8 mt-12">
+        <div className="flex flex-wrap items-center justify-center gap-8 mt-12 overflow-hidden">
 
           <div 
           data-aos="fade-right"
@@ -40,7 +40,7 @@ function Contents() {
             <div className="flex flex-col gap-2 px-4 pb-5">
             <h1 className='text-txtColor text-sm font-medium'>Contact info</h1>
             <div className='flex flex-col gap-1 '>
-              <p className='text-secondaryColor '><i class="ri-map-pin-line"><span className='text-gray-500 ml-2 '>44 daarta,  Br City, Somalia, 70-102</span> </i></p>
+              <p className='text-secondaryColor '><i class="ri-map-pin-line"><span className='text-gray-500 ml-2 '>44 daarta, Somalia, 70-102</span> </i></p>
               <p className='text-secondaryColor '><i class="ri-mail-send-line"><span className='text-gray-500 ml-2 '>somalischool@somaali.so</span></i></p>
               <p className='text-secondaryColor '><i class="ri-phone-line"><span className='text-gray-500 ml-2 '>+585-656-658-22</span></i></p>
             </div>
@@ -68,7 +68,7 @@ function Contents() {
             <div className="flex flex-col gap-2 px-4 pb-5">
             <h1 className='text-txtColor text-sm font-medium'>Contact info</h1>
             <div className='flex flex-col gap-1 '>
-              <p className='text-secondaryColor '><i class="ri-map-pin-line"><span className='text-gray-500 ml-2 '>44 daarta,  Br City, Somalia, 70-102</span> </i></p>
+              <p className='text-secondaryColor '><i class="ri-map-pin-line"><span className='text-gray-500 ml-2 '>44 daarta, Somalia, 70-102</span> </i></p>
               <p className='text-secondaryColor '><i class="ri-mail-send-line"><span className='text-gray-500 ml-2 '>somalischool@somaali.so</span></i></p>
               <p className='text-secondaryColor '><i class="ri-phone-line"><span className='text-gray-500 ml-2 '>+585-656-658-22</span></i></p>
             </div>
@@ -96,7 +96,7 @@ function Contents() {
             <div className="flex flex-col gap-2 px-4 pb-5">
             <h1 className='text-txtColor text-sm font-medium'>Contact info</h1>
             <div className='flex flex-col gap-1 '>
-              <p className='text-secondaryColor '><i class="ri-map-pin-line"><span className='text-gray-500 ml-2 '>44 daarta,  Br City, Somalia, 70-102</span> </i></p>
+              <p className='text-secondaryColor '><i class="ri-map-pin-line"><span className='text-gray-500 ml-2 '>44 daarta, Somalia, 70-102</span> </i></p>
               <p className='text-secondaryColor '><i class="ri-mail-send-line"><span className='text-gray-500 ml-2 '>somalischool@somaali.so</span></i></p>
               <p className='text-secondaryColor '><i class="ri-phone-line"><span className='text-gray-500 ml-2 '>+585-656-658-22</span></i></p>
             </div>
