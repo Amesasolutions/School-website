@@ -42,7 +42,7 @@ function ContactForms() {
                             <textarea
                                 placeholder="Message"
                                 id="input"
-                                className='border rounded h-[90px] w-full p-3 outline-primaryColor'
+                                className='border rounded h-[120px] w-full p-3 outline-primaryColor'
 
                                 name='message'
                             ></textarea>
@@ -73,17 +73,17 @@ function ContactForms() {
               <h1 className='text-center text-primaryColor text-2xl font-bold my-4'>Get In Toach us</h1>
               <div className='flex flex-col md:flex-row justify-center gap-8 w-full'>
                 <div className='text-center items-center'>
-                  <p  className='bg-secondaryColor  justify-center rounded-[50%] w-[50px] h-[50px] leading-[50px] text-center text-white mx-auto'><i class="ri-map-pin-fill"></i></p>  
+                  <p  className='bg-secondaryColor  justify-center rounded-[50%] w-[60px] h-[60px] leading-[60px] text-center text-white mx-auto text-3xl'><i class="ri-map-pin-fill"></i></p>  
                   <p className='text-center pt-3 '>Mogadisho, Somalia</p>
                 </div>
 
                 <div className='justify-center items-center '>
-                  <p className='bg-secondaryColor justify-center rounded-[50%] w-[50px] h-[50px] leading-[50px] text-center text-white mx-auto'><i class="ri-mail-fill"></i></p>  
+                  <p className='bg-secondaryColor justify-center rounded-[50%] w-[60px] h-[60px] leading-[60px] text-center text-white mx-auto text-3xl'><i class="ri-mail-fill"></i></p>  
                   <p className='text-center pt-3'>school@som.so</p>
                 </div>
 
                 <div className='text-center '>
-                  <p  className='bg-secondaryColor justify-center rounded-[50%] w-[50px] h-[50px] leading-[50px] text-center text-white mx-auto'><i class="ri-phone-fill"></i></p>  
+                  <p  className='bg-secondaryColor justify-center rounded-[50%] w-[60px] h-[60px] leading-[60px] text-center text-white mx-auto text-3xl'><i class="ri-phone-fill"></i></p>  
                   <p className='text-center pt-3'>+252 61 8334532 </p>
                 </div>
 
