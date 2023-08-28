@@ -97,9 +97,31 @@ section {
     ),
     url("./assets/images/cover.jpg");
   width: 100%;
+  object-fit: cover;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+#line {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer
+}
+
+#line::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 4px;
+  background:#005eff;
+  transition: width linear 0.3s;
+}
+
+#line:hover::after {
+  width: 100%;
 }
 
 @media only screen and (max-width: 768px) {

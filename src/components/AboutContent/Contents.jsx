@@ -63,7 +63,8 @@ function Contents() {
             <div
               data-aos="fade-right"
               data-aos-duration="1500"
-              className="w-full md:w-[20rem] flex flex-col gap-4 items-center justify-center p-8 bg-white shadow-[0px_0px_8px_rgba(0,0,0,0.1)] rounedd"
+              id="line"
+              className="w-full md:w-[20rem] flex flex-col gap-4 items-center justify-center p-8 bg-white shadow-[0px_0px_8px_rgba(0,0,0,0.1)] rounded"
             >
               <div className="w-[50px] h-[50px] leading-[50px] text-center bg-secondaryColor text-white text-[1.3rem] rounded-full ">
                 <i class="ri-focus-2-line"></i>
@@ -85,7 +86,8 @@ function Contents() {
             <div
               data-aos="fade-up"
               data-aos-duration="1300"
-              className="w-full md:w-[20rem] flex flex-col gap-4 items-center justify-center p-8 bg-white shadow-[0px_0px_8px_rgba(0,0,0,0.1)] rounedd"
+              id="line"
+              className="w-full md:w-[20rem] flex flex-col gap-4 items-center justify-center p-8 bg-white shadow-[0px_0px_8px_rgba(0,0,0,0.1)] rounded"
             >
               <div className="w-[50px] h-[50px] leading-[50px] text-center bg-secondaryColor text-white text-[1.3rem] rounded-full ">
               <i class="ri-service-fill"></i>
@@ -106,7 +108,8 @@ function Contents() {
             <div 
             data-aos="fade-left"
             data-aos-duration="1500"
-            className="w-full md:w-[20rem] flex flex-col gap-4 items-center justify-center p-8 bg-white shadow-[0px_0px_8px_rgba(0,0,0,0.1)] rounedd">
+            id="line"
+            className="w-full md:w-[20rem] flex flex-col gap-4 items-center justify-center p-8 bg-white shadow-[0px_0px_8px_rgba(0,0,0,0.1)] rounded">
               <div className="w-[50px] h-[50px] leading-[50px] text-center bg-secondaryColor text-white text-[1.3rem] rounded-full ">
               <i class="ri-megaphone-fill"></i>
               </div>

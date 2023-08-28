@@ -2,7 +2,10 @@ import React from "react";
 
 function CarauselItems({ item }) {
   return (
-    <div className="carausel-item">
+    <div 
+    data-aos="flip-up"
+    data-aos-duration="1200"
+    className="carausel-item">
       <img
         className="carausel-img w-[5rem] md:w-[8rem]"
         src={item.img}
