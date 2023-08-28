@@ -36,11 +36,11 @@ function Header() {
       <div className="container">
         <div className="flex items-center justify-between">
           {/* ===== logo start ====== */}
-          <div>
+          <Link to="/">
             <figure className="w-[9rem]">
               <img src={logo} alt="somali school" />
             </figure>
-          </div>
+          </Link>
           {/* ===== logo end ====== */}
           {/* ===== menu links start ====== */}
           <div className="menu" ref={menuRef} onClick={toggleMenu}>
@@ -99,7 +99,7 @@ function Header() {
           {/* ===== menu right start ====== */}
           <div className="flex items-center gap-4">
             {/* button right */}
-            <a href="#">
+            <Link to="/Contact-us">
               <span
                 className="hidden sm:flex h-[40px] items-center justify-center  bg-white border border-solid border-primaryColor text-primaryColor py-2 px-4 
               rounded-[8px] cursor-pointer hover:bg-primaryColor hover:text-white ease-in duration-300"
@@ -107,7 +107,7 @@ function Header() {
                 <i class="ri-mail-send-line"></i>
                 <span className="pl-2">Contact</span>
               </span>
-            </a>
+            </Link>
 
             {/* Menu toggle */}
             <span

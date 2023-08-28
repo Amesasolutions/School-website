@@ -29,13 +29,6 @@ function Carousel() {
       Date: "July 13, 2022",
       img: parent3,
     },
-    {
-        Name: "Sarah Mohamed",
-        Description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim Lorem ipsum dolor sit amet, ",
-        Date: "July 13, 2022",
-        img: parent3,
-      },
   ];
 
   const updateIndex = (newIndex) => {
@@ -53,7 +46,10 @@ function Carousel() {
   return (
     <section>
       <div className="container flex flex-col gap-8 items-center justify-center">
-        <h1 className="text-center font-semibold text-xl text-primaryColor">
+        <h1 
+        data-aos="fade-up"
+        data-aos-duration="1200"
+        className="text-center font-semibold text-xl text-primaryColor">
           what our students parent says
         </h1>
         <div className="carausel w-[100%] lg:w-1/2 md:w-2/3" >
@@ -67,12 +63,17 @@ function Carousel() {
           </div>
           <div className="carausel-buttons">
             <button
+             data-aos="fade-right"
+             data-aos-duration="1200"
               onClick={() => updateIndex(activeIndex - 1)}
               className="arrows-btn bg-primaryColor"
             >
               <i class="ri-arrow-left-s-line"></i>
             </button>
-            <div className="indicators ">
+            <div 
+            data-aos="fade-up"
+            data-aos-duration="1200"
+            className="indicators ">
               {items.map((item, index) => {
                 return (
                   <button onClick={() => updateIndex(index)} className="text-secondaryColor">
@@ -86,6 +87,8 @@ function Carousel() {
               })}
             </div>
             <button
+              data-aos="fade-left"
+              data-aos-duration="1200"
               onClick={() => updateIndex(activeIndex + 1)}
               className="arrows-btn bg-primaryColor"
             >
