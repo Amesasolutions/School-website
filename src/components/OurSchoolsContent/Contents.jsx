@@ -17,7 +17,7 @@ function Contents() {
         </p>
         {/* ======== title end ======== */}
         {/* ======== boxs start ======== */}
-        <div className="flex flex-wrap items-center justify-center gap-8 mt-12 overflow-hidden">
+        <div className="flex flex-wrap items-center justify-center gap-8 mt-12 overflow-hidden py-3 px-1">
 
           <div 
           data-aos="fade-right"
